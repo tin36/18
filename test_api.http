@@ -1,0 +1,36 @@
+GET http://localhost:10001/movie/
+Accept: application/json
+
+###
+
+DELETE http://localhost:10001/movies/3
+Content-Type: application/json
+
+###
+
+PUT http://localhost:10001/movies/4
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "test",
+  "description": "test_d",
+  "trailer": "no",
+  "year": 2021,
+  "rating": 5,
+  "genre_id":   5,
+  "director_id": 1
+}
+
+###
+
+POST http://localhost:10001/movies/
+Content-Type: application/json
+
+{
+  "id": "Thomas",
+  "title": 15,
+  "description": 133,
+  trailer
+
+}
